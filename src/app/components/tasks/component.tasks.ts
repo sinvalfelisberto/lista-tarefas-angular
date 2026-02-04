@@ -1,15 +1,15 @@
 import { Component, OnInit } from '@angular/core';
-import { Task } from '../../services/task';
+import { Task } from '../../services/service.task';
 import { Tarefa } from '../../../Tarefa';
 import { CommonModule } from '@angular/common';
-import { TaskItem } from '../task-item/task-item';
+import { TaskItem } from '../task-item/component.task-item';
 
 
 @Component({
   selector: 'app-tasks',
   imports: [CommonModule, TaskItem],
-  templateUrl: './tasks.html',
-  styleUrl: './tasks.css',
+  templateUrl: './component.tasks.html',
+  styleUrl: './component.tasks.css',
 })
 export class Tasks implements OnInit {
   tarefas: Tarefa[] = []

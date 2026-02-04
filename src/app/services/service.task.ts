@@ -9,6 +9,7 @@ import { Tarefa } from '../../Tarefa';
 export class Task {
 
   private apiUri = "http://localhost:3000/tasks"
+  
   constructor(private http: HttpClient) { }
 
   getTasks(): Observable<Tarefa[]> {

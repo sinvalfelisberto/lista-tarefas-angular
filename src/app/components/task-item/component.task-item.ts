@@ -10,8 +10,8 @@ import { CommonModule } from '@angular/common';
 @Component({
   selector: 'app-task-item',
   imports: [FontAwesomeModule, CommonModule],
-  templateUrl: './task-item.html',
-  styleUrl: './task-item.css',
+  templateUrl: './component.task-item.html',
+  styleUrl: './component.task-item.css',
 })
 export class TaskItem {
   @Input() tarefa?: Tarefa;
