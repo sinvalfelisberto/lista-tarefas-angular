@@ -13,15 +13,17 @@ Um aplicativo de gerenciamento de tarefas que utiliza **Angular** para o front-e
 * **Interface Reativa:** Feedback instantâneo das ações do usuário através de componentes Angular.
 * **Comunicação Assíncrona:** Uso de Services e HttpClient para interagir com a API.
 
-[![Versão Angular](assets/angular.png)]
-
 
 ## 🛠️ Tecnologias Utilizadas
+
+
 
 * **Angular**: Framework principal para o desenvolvimento da SPA (Single Page Application).
 * **JSON Server**: Ferramenta para criar uma API fake de forma rápida e eficiente.
 * **TypeScript**: Tipagem estática para um código mais seguro e escalável.
 * **RxJS**: Gerenciamento de fluxos de dados assíncronos.
+
+![Versão Angular](assets/angular.png)
 
 ---
 
