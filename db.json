@@ -11,6 +11,18 @@
       "tarefa": "Estudar Angular",
       "categoria": "Faculdade",
       "concluido": true
+    },
+    {
+      "tarefa": "Repo no github:",
+      "categoria": "Faculdade",
+      "concluido": false,
+      "id": 18
+    },
+    {
+      "tarefa": "cara",
+      "categoria": "Lazer",
+      "concluido": false,
+      "id": 19
     }
   ]
 }

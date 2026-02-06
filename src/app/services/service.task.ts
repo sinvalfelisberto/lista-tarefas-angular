@@ -9,7 +9,7 @@ import { Tarefa } from '../../Tarefa';
 export class Task {
 
   private apiUri = "http://localhost:3000/tasks"
-  
+
   constructor(private http: HttpClient) { }
 
   getTasks(): Observable<Tarefa[]> {
@@ -22,5 +22,9 @@ export class Task {
 
   updateTask(tarefa: Tarefa): Observable<Tarefa>{
     return this.http.put<Tarefa>(`${this.apiUri}/${tarefa.id}`, tarefa)
+  }
+
+  addTask(tarefa: Tarefa) : Observable<Tarefa> {
+    return this.http.post<Tarefa>(`${this.apiUri}`, tarefa)
   }
 }
