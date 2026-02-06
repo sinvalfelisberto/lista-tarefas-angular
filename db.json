@@ -15,14 +15,26 @@
     {
       "tarefa": "Repo no github:",
       "categoria": "Faculdade",
-      "concluido": false,
+      "concluido": true,
+      "id": 17
+    },
+    {
+      "tarefa": "Tarefa de Teste",
+      "categoria": "Lazer",
+      "concluido": true,
       "id": 18
     },
     {
-      "tarefa": "cara",
-      "categoria": "Lazer",
+      "tarefa": "Tarefa de TEste",
+      "categoria": "Casa",
       "concluido": false,
-      "id": 19
+      "id": 20
+    },
+    {
+      "tarefa": "Repo no github:",
+      "categoria": "Trabalho",
+      "concluido": false,
+      "id": 21
     }
   ]
 }
